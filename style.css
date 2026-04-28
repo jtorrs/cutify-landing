@@ -132,15 +132,13 @@ img {
 }
 
 .logo {
-  display: inline-flex;
-  align-items: center;
+  font-family: "Alex Brush", "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: clamp(2.1rem, 3.8vw, 2.9rem);
+  letter-spacing: 0.3px;
   line-height: 1;
-}
-
-.logo-image {
-  width: clamp(120px, 16vw, 180px);
-  height: auto;
-  display: block;
+  color: #d4a03a;
+  text-shadow: 0 0 10px rgba(212, 160, 58, 0.22);
 }
 
 .nav-links {
