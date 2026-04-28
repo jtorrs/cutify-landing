@@ -132,13 +132,15 @@ img {
 }
 
 .logo {
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
-  font-size: clamp(1.9rem, 3.6vw, 2.7rem);
-  letter-spacing: 0.4px;
+  display: inline-flex;
+  align-items: center;
   line-height: 1;
-  color: #d9a23a;
-  text-shadow: 0 0 14px rgba(217, 162, 58, 0.22);
+}
+
+.logo-image {
+  width: clamp(120px, 16vw, 180px);
+  height: auto;
+  display: block;
 }
 
 .nav-links {
