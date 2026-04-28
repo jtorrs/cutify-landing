@@ -1,4 +1,4 @@
-# Online_Alot
+# Cutify
 
 ## Landing Page Navigation
 
