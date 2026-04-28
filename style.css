@@ -132,12 +132,13 @@ img {
 }
 
 .logo {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
-  letter-spacing: 1px;
-  color: #f2c276;
-  text-shadow: 0 0 14px rgba(230, 171, 82, 0.28);
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: clamp(1.9rem, 3.6vw, 2.7rem);
+  letter-spacing: 0.4px;
+  line-height: 1;
+  color: #d9a23a;
+  text-shadow: 0 0 14px rgba(217, 162, 58, 0.22);
 }
 
 .nav-links {
